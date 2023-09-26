@@ -1,0 +1,25 @@
+{% load static %}
+<html>
+<head>
+<title>Motivational Quotes</title>
+<link rel="icon" href="{% static 'images/001.png' %}">
+<style>
+	* {font-size:50px;}
+	body { background-color:azure;}
+</style>
+</head>
+<body>
+<center>
+<h1>🌺Motivational Quotes🌺</h1>
+<form>
+<input type="submit" style="font-size:50px;color:black;
+	 border-radius:30px;border-width:6px;
+	background-color:lightpink; 
+	cursor: pointer;"
+	name ="btn" />
+<link rel="stylesheet" href="{% static 'style.css' %}">
+</form>
+<h1>{{ msg }}</h1>
+</center>
+</body>
+</html>
